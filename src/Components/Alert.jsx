@@ -1,7 +1,8 @@
 import React from "react";
 
+const arrTypes = ["primary", "secondary", "success", "danger", "warning", "info", "light", "dark"]
+
 const checkType = (checkType) => {
-    const arrTypes = ["primary", "secondary", "success", "danger", "warning", "info", "light", "dark"]
     return arrTypes.includes(checkType)
 }
 
